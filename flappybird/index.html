@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Enter the V</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="/css/styles.css">
+		<link rel="stylesheet" href="./css/styles.css">
+		<script src="./js/main.js" type="module"></script>
+	</head>
+	<body>
+		<div id="currentscore" class="scorebox" style="
+			 border: 1px dotted black;
+			 background: darkblue;
+			 color: white;
+			 align-content: left;
+			 flex: 1;
+			 padding: auto;
+			 margin: auto;
+			 "
+		>hello, score goes here
+		</div>
+		<div id="topscore" class="scorebox" style="
+			 border: 1px dotted black;
+			 background: darkblue;
+			 color: white;
+			 align-content: center;
+			 flex: 1;
+			 padding: auto;
+			 margin: auto;
+			 "
+			score="getScore()"
+		>High Score : ZERO! (doesn't save yet)
+		</div>
+		<canvas id="canvasEl" width="400" height="800" 
+			style="
+				border: 1px solid black;
+				background-color: darkgrey;
+				"
+		></canvas>
+	</body>
+	<footer>
+		<a href="../index.html">Link to what page</a>
+		<a href="../snake/index.html">Link to snake page</a>
+	</footer>
+</html>
